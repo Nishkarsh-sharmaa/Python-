@@ -8,6 +8,6 @@ def most_frequent(string):
             else:
                  d[key] += 1
              
-       cd = sorted(d.itemd(),key=operator.itemgetter(1),reverse=True)
+       cd = sorted(d.items(),key=operator.itemgetter(1),reverse=True)
        return cd
        print (most_frequent(W))
